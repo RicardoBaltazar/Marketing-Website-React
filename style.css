@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.home {
+    background-color: #95B8D1;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: #F5F5F5;
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card h1 {
+    font-weight: 500;
+    color: #1c1c1c;
+}
+
+.card form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.card form input {
+    width: 80%;
+    height: 3rem;
+    padding: 0 2rem;
+    font-size: 1rem;
+}
+
+.card form button {
+    background-color: #95B8D1;
+    color: #fff;
+    border: none;
+    padding: 1rem 3rem;
+    border-radius: 8px;
+    margin: 0.5rem 0;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.message {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+@media(max-width: 900px){
+    .card{
+        background-color: #F5F5F5;
+        height: 75vh;
+        width: 95vw;
+    }
+
+    .card h1 {
+        font-size: 1.5rem;
+    }
+
+    .card form input {
+        width: 95%;
+    }
+
+    .card form button {
+        padding: 1rem 4rem;
+    }
+    
+}
